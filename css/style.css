@@ -1,0 +1,55 @@
+.slick-dots li button {
+  font-size: 0;
+  height: 8px;
+  width: 8px;
+  background: #10171d;
+  border-radius: 50%;
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+}
+
+#work .slick-dots li button {
+  font-size: 0;
+  height: 8px;
+  width: 8px;
+  background: #dce7f1;
+  border-radius: 50%;
+}
+#work .slick-dots {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 8px;
+  /* margin-bottom: 22px; */
+  /* margin-top: 96px; */
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+}
+
+.venoratio {
+  width: 400px !important;
+  box-shadow: 3px -1px 16px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px -1px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px -1px 16px 0px rgba(0, 0, 0, 0.75);
+}
+
+.vbox-close {
+  top: 30%;
+  right: 37%;
+  color: #e1f4ff;
+  border: 1px solid #ffffff;
+  background: #003b5d;
+  border-radius: 50%;
+  padding: 0 !important;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: medium !important;
+  transition: all linear 0.2s;
+}
